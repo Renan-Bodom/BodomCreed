@@ -25,7 +25,9 @@ SECRET_KEY = '3o#=s)+l6i$54@0^iwwy7^i3_2n(dtb9o*1b=6+6=$#k)*lf99'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1',
+                 '192.168.0.100',
+                 'http://bodomcreed.pythonanywhere.com/']
 
 
 # Application definition
