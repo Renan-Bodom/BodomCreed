@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1',
                  '192.168.0.100',
-                 'http://bodomcreed.pythonanywhere.com/',
+                 'bodomcreed.pythonanywhere.com',
                  '.pythonanywhere.com',
                  '.googleapis.com',
                  ]
