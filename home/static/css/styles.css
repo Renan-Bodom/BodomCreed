@@ -12,7 +12,7 @@ main {
 
 
 a:link {
-    color: #449;
+    color: #777;
 }
 
 .header-1 {
@@ -45,4 +45,26 @@ a:link {
     float: right;
     padding: 15px;
     width: 50%;
+}
+
+
+.header-2 {
+    background-color: #866900;
+    border-bottom: 3px solid #777;
+    height: 60px;
+}
+
+.menuOp ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menuOp {
+    float: left;
+    padding: 15px;
+}
+
+.fontMenu {
+    color: #999;
+    font-weight: bold;
 }
