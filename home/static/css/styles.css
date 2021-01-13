@@ -37,21 +37,21 @@ a:link {
 
 .cabecaEsquerda {
     float: left;
-    padding: 15px;
-    width: 50%;
+    padding: 13px;
+    width: 40%;
 }
 
 .cabecaDireita{
     float: right;
-    padding: 15px;
-    width: 50%;
+    padding: 13px;
+    width: 40%;
 }
 
 
 .header-2 {
     background-color: #866900;
-    border-bottom: 3px solid #777;
-    height: 60px;
+    border-bottom: 5px solid #777;
+    height: 50px;
 }
 
 .menuOp ul li {
@@ -61,7 +61,7 @@ a:link {
 
 .menuOp {
     float: left;
-    padding: 15px;
+    padding: 11px;
 }
 
 .fontMenu {
