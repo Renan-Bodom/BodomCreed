@@ -16,8 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from home.views import index
+from filaAtendimento.views import index as indexFila
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index, name='url_home')
+    path('', index, name='url_home'),
+
+    #App fila
+    path('filaAt/', indexFila, name='url_indexFila')
 ]
