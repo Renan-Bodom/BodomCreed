@@ -19,7 +19,8 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
+    path('sistemasBeta/', include('sistemasBeta.urls')),
 
     #App fila
-    path('filaAt/', include('filaAtendimento.urls'))
+    path('filaAtendimento/', include('filaAtendimento.urls'))
 ]
