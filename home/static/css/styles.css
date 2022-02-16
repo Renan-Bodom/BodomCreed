@@ -65,6 +65,19 @@ a:link {
 }
 
 .fontMenu {
-    color: #999;
+    color: #333;
     font-weight: bold;
+}
+
+.boxArredondado {
+    color: black;
+    background-color: #444;
+    opacity: 0.9;
+    max-width: 250px;
+    border-radius: 10px 20px;
+}
+
+.larguraBotaoContato {
+    width: 130px;
+    color: black !important;
 }
