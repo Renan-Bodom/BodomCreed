@@ -4,6 +4,6 @@ from django.shortcuts import render
 
 def index(request):
     data = {}
-    data['teste'] = "TOP"
+    data['siteNome'] = "Bodom Creed"
 
     return render(request, 'home/index.html', data)
