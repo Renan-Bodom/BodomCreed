@@ -2,6 +2,8 @@ body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    background-color: #494949;
+    color: #fff1be;
 }
 
 main {
@@ -12,11 +14,11 @@ main {
 
 
 a:link {
-    color: #777;
+    color: rgb(247, 255, 131);
 }
 
 .header-1 {
-    background-color: #333;
+    background-color: #222222;
     height: 60px;
 }
 
@@ -25,7 +27,7 @@ a:link {
 }
 
 .footer {
-    background-color: #333;
+    background-color: #222222;
     padding: 15px;
     position: fixed;
     left: 0;
@@ -49,7 +51,7 @@ a:link {
 
 
 .header-2 {
-    background-color: #866900;
+    background-color: #665105;
     border-bottom: 5px solid #777;
     height: 50px;
 }
@@ -65,13 +67,13 @@ a:link {
 }
 
 .fontMenu {
-    color: #333;
+    color: #f5ff9e;
     font-weight: bold;
 }
 
 .boxArredondado {
     color: black;
-    background-color: #444;
+    background-image: linear-gradient(to bottom right, rgb(136, 138, 65),rgba(39, 39, 9, 0.233));
     opacity: 0.9;
     max-width: 250px;
     border-radius: 10px 20px;
