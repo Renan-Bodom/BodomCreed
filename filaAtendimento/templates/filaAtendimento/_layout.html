@@ -6,7 +6,7 @@
     <title>{% block title %}{% endblock %}</title>
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/filaAtendimento.css' %}">
 </head>
 <body>
 
@@ -17,22 +17,12 @@
 
                 <div class="cabecaEsquerda">
                     <img src="https://i.ibb.co/ftqqKP6/Renan-Logo.png" width="50px">
-                    Bodom Creed
+                    Sistema de fila
                 </div>
 
                 <div class="cabecaDireita">
 
-                        Time:
-
-                        <!-- Renan -->
-                        <a href="https://www.instagram.com/renan_bodom/">
-                            <img src="https://i.ibb.co/sqRsTTK/Renan.jpg" width="30px">
-                        </a>
-
-                        <!-- Luana -->
-                        <a href="https://www.instagram.com/luana.mqs/">
-                            <img src="https://i.ibb.co/W6F5k3H/Luana.jpg" width="30px">
-                        </a>
+                    <div id="horaAgora"></div>
 
                 </div>
 
@@ -45,10 +35,9 @@
     <div class="menuOp">
 
         <ul>
-            <li><a href="/"><font class="fontMenu">Inicio</font></a></li>
-            <li><a href="#"><font class="fontMenu">Sistemas</font></a></li>
-            <li><a href="/sistemasBeta/"><font class="fontMenu">Sistemas BETA</font></a></li>
-            <li><a href="#"><font class="fontMenu">Sobre</font></a></li>
+            <li><a href="/filaAtendimento/"><font class="fontMenu">Inicio</font></a></li>
+            <li><a href="#"><font class="fontMenu">Usuário</font></a></li>
+            <li><a href="#"><font class="fontMenu">Agente</font></a></li>
         </ul>
 
     </div>
@@ -86,7 +75,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="{% static 'js/scripts.js' %}"></script>
+<script src="{% static 'js/filaAtendimento.js' %}"></script>
 
 </body>
 </html>
