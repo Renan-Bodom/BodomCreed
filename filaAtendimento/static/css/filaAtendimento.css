@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #a8bbfb;
     color: #000000;
 }
 
@@ -20,7 +20,7 @@ a:link {
 }
 
 .header-1 {
-    background-color: #333;
+    background-color: #002a57;
     height: 60px;
 }
 
@@ -42,8 +42,8 @@ a:link {
 
 
 .header-2 {
-    background-color: #a8c8e2;
-    border-bottom: 5px solid #777;
+    background-color: #467398;
+    border-bottom: 5px solid #0062cc;
     height: 50px;
 }
 
@@ -58,7 +58,7 @@ a:link {
 }
 
 .fontMenu {
-    color: #f5ff9e;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -95,18 +95,30 @@ a:link {
     background-color: #222222;
     color: #ffffff;
     padding: 20px;
-    height: 50%;
+    height: 52%;
     box-sizing: border-box;
     text-align: center;
-    max-width: 50%;
+    max-width: 48%;
     float: left;
+}
+
+.dashboard-box:nth-child(1) {
+    margin-right: 2%;
+}
+
+#dashboard-server {
+    background-color: rgb(21, 55, 119);
+}
+
+#dashboard-cliente {
+    background-color: rgb(19, 79, 59);
 }
 
 
 /* Roda pé*/
 
 .footer {
-    background-color: #222222;
+    background-color: #002a57;
     padding: 15px;
     position: fixed;
     left: 0;
