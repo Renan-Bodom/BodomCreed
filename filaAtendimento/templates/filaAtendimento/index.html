@@ -1,24 +1,22 @@
 {% extends 'filaAtendimento/_layout.html' %}
-{% block title %} Atendimento {% endblock %}
+{% block title %} Fila atendimento {% endblock %}
 
 {% block content %}
 
+<div class="bem-vindo">
+    <font color="red">{{ teste }}</font>
+    <br>
 
-Bem vindo para a fila de atendimento!
-<br>
-<font color="red">{{ teste }}</font>
+    Bem vindo para a fila de atendimento!
+</div>
 
-<br>
-<br>
+<div class="contador">
+    <button name="btnAperteAqui" type="button" class="btn btn-primary" onclick="btnAqui()">Botão de teste!</button>
+    <div id="DIVContador"></div>
+</div>
 
-<button name="btnAperteAqui" type="button" class="btn btn-primary" onclick="btnAqui()">Botão de teste!</button>
 
-<br>
-<br>
-    <div id="DIVContador">
+{% include "filaAtendimento/dashboard_fila.html" %}
 
-    </div>
-<br>
-<br>
 
 {% endblock %}
