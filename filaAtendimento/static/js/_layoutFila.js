@@ -1,4 +1,4 @@
 /* Hora */
 var dataAgora = new Date;
 var horaAgora = document.getElementById("horaAgora");
-horaAgora.innerHTML = "Atualizado em: " + dataAgora.getHours() + ':' + dataAgora.getMinutes();
+horaAgora.innerHTML = "Hora fila: " + dataAgora.getHours() + ':' + dataAgora.getMinutes();
