@@ -1,12 +1,3 @@
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    background-color: #a8bbfb;
-    color: #000000;
-}
-
-
 /* Bem-vindo */
 .bem-vindo {
     text-align: center;
@@ -58,6 +49,3 @@ body {
 #dashboard-cliente {
     background-color: rgb(19, 79, 59);
 }
-
-
-/* Roda pé*/
