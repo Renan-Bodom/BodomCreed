@@ -6,61 +6,6 @@ body {
     color: #000000;
 }
 
-/* Navbar */
-
-main {
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-}
-
-
-a:link {
-    color: #777;
-}
-
-.header-1 {
-    background-color: #002a57;
-    height: 60px;
-}
-
-.fontHeader-1 {
-    color: white;
-}
-
-.cabecaEsquerda {
-    float: left;
-    padding: 13px;
-    width: 40%;
-}
-
-.cabecaDireita{
-    float: right;
-    padding: 13px;
-    width: 40%;
-}
-
-
-.header-2 {
-    background-color: #467398;
-    border-bottom: 5px solid #0062cc;
-    height: 50px;
-}
-
-.menuOp ul li {
-    display: inline-block;
-    margin-left: 10px;
-}
-
-.menuOp {
-    float: left;
-    padding: 11px;
-}
-
-.fontMenu {
-    color: #ffffff;
-    font-weight: bold;
-}
 
 /* Bem-vindo */
 .bem-vindo {
@@ -116,14 +61,3 @@ a:link {
 
 
 /* Roda pé*/
-
-.footer {
-    background-color: #002a57;
-    padding: 15px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height: 50px;
-}

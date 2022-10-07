@@ -9,65 +9,33 @@
     <link rel="stylesheet" href="{% static 'css/filaAtendimento.css' %}">
 </head>
 <body>
+    <div class="container">
 
-<header class="menuCabeca">
-    <div class="header-1">
-        <main>
-            <font class="fontHeader-1">
 
-                <div class="cabecaEsquerda">
-                    <i class="fa-solid fa-people-arrows"></i>
-                    Fila
-                </div>
+        <i class="fa-solid fa-people-arrows"></i>
+        Fila
 
-                <div class="cabecaDireita">
+        <div id="horaAgora"></div>
 
-                    <div id="horaAgora"></div>
-
-                </div>
-
-            </font>
-        </main>
-    </div>
-</header>
-
-<div class="header-2">
-    <div class="menuOp">
-
+        
         <ul>
             <li><a href="/filaAtendimento/"><font class="fontMenu">Inicio</font></a></li>
             <li><a href="#"><font class="fontMenu">Usuário</font></a></li>
             <li><a href="#"><font class="fontMenu">Agente</font></a></li>
         </ul>
 
-    </div>
-</div>
+
+        {% block content %}
+        {% endblock %}
 
 
-<br>
-
-
-<div class="container" style="max-width: 800px">
-    {% block content %}
-    {% endblock %}
-</div>
-
-
-
-<!-- Footer -->
-<footer class="footer">
-    <!-- Copyright -->
-    <div>
-        <font class="fontHeader-1">
+        <div>
+            
             <img src="https://i.ibb.co/ftqqKP6/Renan-Logo.png" width="40px">
             © 2022 Copyright:
-        </font>
-        <a href="http://bodomcreed.pythonanywhere.com/"> Bodom Creed.</a>
+            <a href="http://bodomcreed.pythonanywhere.com/"> Bodom Creed.</a>
+        </div>
     </div>
-    <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
 
 <script src="https://kit.fontawesome.com/5d1f006dd0.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
