@@ -83,3 +83,18 @@ nav:after {
 }
 
 /* Roda pé*/
+
+.footer {
+    background-color: #467398;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+.corLinkBodom {
+    color: rgb(247, 255, 131);
+}
