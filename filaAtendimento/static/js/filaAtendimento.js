@@ -7,10 +7,3 @@ function btnAqui(){
     contAqui++;
     alter.innerHTML = "JavaScript funcionando, botão pressionado " + contAqui + " vezes!!";
 }
-
-
-/* Hora */
-var dataAgora = new Date;
-var horaAgora = document.getElementById("horaAgora");
-horaAgora.innerHTML = "Atualizado em: " + dataAgora.getHours() + ':' + dataAgora.getMinutes();
-

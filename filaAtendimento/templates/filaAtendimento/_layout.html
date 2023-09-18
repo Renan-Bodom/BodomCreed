@@ -1,77 +1,82 @@
 <!DOCTYPE html>{% load static %}
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
     <title>{% block title %}{% endblock %}</title>
 
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- CSS local -->
+    <link rel="stylesheet" href="{% static 'css/_layoutFila.css' %}">
     <link rel="stylesheet" href="{% static 'css/filaAtendimento.css' %}">
 </head>
 <body>
+    <div class="container">
 
-<header class="menuCabeca">
-    <div class="header-1">
-        <main>
-            <font class="fontHeader-1">
+        <header>
 
-                <div class="cabecaEsquerda">
-                    <img src="https://i.ibb.co/ftqqKP6/Renan-Logo.png" width="50px">
-                    Fila
-                </div>
-
-                <div class="cabecaDireita">
+            <nav>
+                <div class="nav-container">
+                    <i class="fa-solid fa-people-arrows" id="logo"></i>
 
                     <div id="horaAgora"></div>
 
+                    <ul>
+                        <li><a href="/filaAtendimento/"><font class="fontMenu">Inicio</font></a></li>
+                        <li><a href="#"><font class="fontMenu">Usuário</font></a></li>
+                        <li><a href="#"><font class="fontMenu">Agente</font></a></li>
+                    </ul>
                 </div>
+            </nav>
 
-            </font>
-        </main>
+
+            <div class="main-banner">
+                <div class="login-form">
+                    
+                    <h2>A evolução da fila</h2>
+                    <p>Melhor solução para ficar em um fila.</p>
+                    
+                    <!--
+                    <form action="/usuario/validar_acesso/" method="post">
+                        {% csrf_token %}
+                        Efetuar o login:
+                        <input type="email" id="txtUserEmail" name="txtUserEmail" placeholder="E-mail"/>
+                        <input type="password" id="txtUserPassword" name="txtUserPassword" placeholder="Senha"/>
+                        <input type="submit" value="Entrar" />
+                        <a href="#">Esqueci a senha.</a>
+                    </form>
+                    -->
+
+                </div>
+            </div>
+
+        </header>
+
+        {% block content %}
+        {% endblock %}
+
+
+        <div>
+            
+            <img src="https://i.ibb.co/ftqqKP6/Renan-Logo.png" width="40px">
+            © 2022 Copyright:
+            <a href="http://bodomcreed.pythonanywhere.com/"> Bodom Creed.</a>
+        </div>
     </div>
-</header>
-
-<div class="header-2">
-    <div class="menuOp">
-
-        <ul>
-            <li><a href="/filaAtendimento/"><font class="fontMenu">Inicio</font></a></li>
-            <li><a href="#"><font class="fontMenu">Usuário</font></a></li>
-            <li><a href="#"><font class="fontMenu">Agente</font></a></li>
-        </ul>
-
-    </div>
-</div>
-
-
-<br>
-
-
-<div class="container" style="max-width: 800px">
-    {% block content %}
-    {% endblock %}
-</div>
 
 
 
-<!-- Footer -->
-<footer class="footer">
-  <!-- Copyright -->
-  <div>
-      <font class="fontHeader-1">
-      <img src="https://i.ibb.co/ftqqKP6/Renan-Logo.png" width="40px">
-      © 2022 Copyright:
-      </font>
-      <a href="http://bodomcreed.pythonanywhere.com/"> Bodom Creed.</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<!-- JavaScript -->
+<!-- Pacotes de icones -->
+<script src="https://kit.fontawesome.com/5d1f006dd0.js" crossorigin="anonymous"></script>
+<!-- JS local -->
+<script src="{% static 'js/_layoutFila.js' %}"></script>
 <script src="{% static 'js/filaAtendimento.js' %}"></script>
+<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 </html>
