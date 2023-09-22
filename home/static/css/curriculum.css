@@ -1,0 +1,59 @@
+/* Estilos da seção de cabeçalho */
+.header_cv_renan {
+    background-image: url('imagem-de-fundo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+    color: white;
+}
+
+.header_cv_luana {
+    background-image: url('imagem-de-fundo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+    color: white;
+}
+
+
+.header_cv h1 {
+    font-size: 48px;
+}
+
+.header_cv p {
+    font-size: 24px;
+}
+
+/* Estilos do conteúdo do currículo */
+.section_cv {
+    height: 100vh; /* Definindo altura de tela inteira */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section_cv h2 {
+    font-size: 36px;
+}
+
+.section_cv p {
+    font-size: 18px;
+}
+
+/* Estilos dos botões de rolagem */
+.scroll-button_cv {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
