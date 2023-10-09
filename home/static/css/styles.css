@@ -14,7 +14,8 @@
 }
 
 body {
-    background-color: #494949;
+    /*background-color: #494949;*/
+    background-color: white;
     color: #fff1be;
 }
 
@@ -76,25 +77,11 @@ a:link {
     font-weight: bold;
 }
 
-
-
-/* Cartão */
-
-.boxArredondado {
+/* contato */
+.contact_index{
     margin: auto;
-    text-align: center;
-    color: black;
-    background-image: linear-gradient(to bottom right, rgb(136, 138, 65),rgba(39, 39, 9, 0.233));
-    opacity: 0.9;
-    max-width: 250px;
-    border-radius: 10px 20px;
+    max-width: 300px;
 }
-
-.larguraBotaoContato {
-    width: 130px;
-    color: black !important;
-}
-
 
 /* Roda pé*/
 

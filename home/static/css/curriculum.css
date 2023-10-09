@@ -1,5 +1,6 @@
 /* Estilos da seção de cabeçalho */
 .header_cv_renan {
+    height: 100vh;
     background-image: url('imagem-de-fundo.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -7,7 +8,7 @@
     background-size: cover;
     text-align: center;
     padding: 150px 0;
-    color: white;
+    color: #614900;
 }
 
 .header_cv_luana {
@@ -30,9 +31,22 @@
     font-size: 24px;
 }
 
+
+/* Estilos dos botões de rolagem */
+.scroll-button_cv {
+    background-color: #614900 ;
+    color: rgb(247, 255, 131);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+
 /* Estilos do conteúdo do currículo */
 .section_cv {
-    height: 100vh; /* Definindo altura de tela inteira */
+    height: 100vh;
+    min-height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,18 +56,60 @@
 
 .section_cv h2 {
     font-size: 36px;
+    padding-bottom: 25px;
+    color: #614900;
 }
 
 .section_cv p {
     font-size: 18px;
+    color: #ffe77b;
 }
 
-/* Estilos dos botões de rolagem */
-.scroll-button_cv {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+
+/* Sessões */
+.itens_section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+}
+
+.item_section {
+    padding: 10px;
     margin: 20px;
+    width: 400px;
+    background-color: #614900;
+    color: white;
+    border-radius: 10px 20px;
+}
+
+.lista_funcoes {
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.lista_funcoes li {
+    margin-bottom: 20px;
+}
+
+/* Contato */
+
+.boxArredondado {
+    text-align: center;
+    color: #ffe77b;
+    background-color: #614900;
+    opacity: 0.9;
+    min-width: 300px;
+    border-radius: 10px 20px;
+}
+
+.boxArredondado h1 {
+    font-size: 26px;
+    padding: 15px;
+}
+
+.larguraBotaoContato {
+    width: 130px;
+    color: white !important;
+    border-color: #ffe77b;
 }
