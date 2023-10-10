@@ -1,8 +1,14 @@
 .titlePag{
     text-align: center;
     padding: 10px;
+    color: #614900;
 }
 
 .listBeta{
     text-align: center;
+}
+
+.listBeta a {
+    color: black !important;
+    border-color: #614900;
 }

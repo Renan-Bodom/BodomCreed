@@ -21,6 +21,9 @@ urlpatterns = [
     path('', include('home.urls')),
     path('sistemasBeta/', include('sistemasBeta.urls')),
 
-    #App fila
+    # Curriculum
+    path('cv/', include('curriculum.urls')),
+
+    # App fila
     path('filaAtendimento/', include('filaAtendimento.urls'))
 ]

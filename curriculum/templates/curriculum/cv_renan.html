@@ -1,0 +1,133 @@
+{% extends 'home/_layout.html' %}
+{% block title %} Lista de sistemas beta {% endblock %}
+
+{% block content %}
+
+<div class="header_cv_renan" id="about">
+    <h1>Renan Marques</h1>
+    <p>Analista de dados | Desenvolvedor</p>
+
+    <button class="scroll-button_cv" onclick="scrollToSection('experience')">Experiências Profissionais</button>
+    <br>
+    <button class="scroll-button_cv" onclick="scrollToSection('contact')">Contato</button>
+</div>
+
+<div class="section_cv" id="experience" style="min-height: 1160px;">
+    <h2>Experiências Profissionais</h2>
+    <div class="itens_section">
+
+        <div class="item_section" id="exp_ufabc">
+            <p>Desenvolvedor tecnológico (UFABC)<br>11/2022 - presente</p>
+
+            <ul class="lista_funcoes">
+                <li>- Planejamento do banco de dados.</li>
+                <li>- Implementação do banco de dados.</li>
+                <li>- Processamento dos dados de simulação para o padrão adotado pelo banco de dados.</li>
+                <li>- Desenvolvimento de uma plataforma para consultar os dados armazenados nos bancos de dados.</li>
+                <li>- Utilização de ferramentas de aprendizado de máquina com os dados fornecidos pela plataforma.</li>
+                <li>- Divulgação da base de dados, para fomento de parcerias.</li>
+            </ul>
+        </div>
+
+        <div class="item_section" id="exp_rr">
+            <p>Gerente administrativo (RR Restaurante)<br>07/2018 - 08/2019</p>
+
+            <ul class="lista_funcoes">
+                <li>- Gerenciando o serviço prestado aos clientes</li>
+                <li>- Planejando e definindo as rotinas de negócio, financeiro e compras.</li>
+            </ul>
+        </div>
+
+        <div class="item_section" id="exp_rdl">
+            <p>Analista de redes (RDL Comunicações)<br>01/2014 - 08/2017</p>
+
+            <ul class="lista_funcoes">
+                <li>- Monitoramento, correções, enlaces e implementações em redes com sistema Mikrotik e UBNT.</li>
+                <li>- Instalações, manutenções e configurações de servidores de autenticação, caches, virtualizações e outros.</li>
+                <li>- Atendimento ao cliente, prestando manutenções, suportes e auxílios.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <button class="scroll-button_cv" onclick="scrollToSection('education')">Formação acadêmica</button>
+</div>
+
+<div class="section_cv" id="education">
+    <h2>Formação acadêmica</h2>
+    <div class="itens_section">
+        <div class="item_section" id="edu_mestre">
+            <p>Mestrado, Ciência da Computação<br>2020 - 2022</p>
+
+            <ul class="lista_funcoes">
+                <li>- Análise de algoritmos e estrutura de dados.</li>
+                <li>- Mineração de dados.</li>
+                <li>- Visão computacional e processamento de imagens.</li>
+                <li>- Engenharia de software.</li>
+                <li>- Interação humano-computador.</li>
+            </ul>
+        </div>
+
+        <div class="item_section" id="edu_bacharel">
+            <p>Bacharelado, Ciência da Computação<br>2014 - 2018</p>
+
+            <ul class="lista_funcoes">
+                <li>- Desenvolvimento em ambientes web.</li>
+                <li>- Logica de programação estruturada.</li>
+                <li>- Linguagem de programação orientada a objetos.</li>
+                <li>- Banco de dados.</li>
+                <li>- Estrutura de dados.</li>
+                <li>- Teoria dos grafos.</li>
+                <li>- Processamento de imagens.</li>
+                <li>- Desenvolvimento de sistemas distribuídos.</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <button class="scroll-button_cv" onclick="scrollToSection('skills')">Competências</button>
+</div>
+
+<div class="section_cv" id="skills">
+    <h2>Competências</h2>
+
+    <div class="itens_section">
+
+        <div class="item_section" id="skill_python">
+            <p>Python</p>
+        </div>
+
+        <div class="item_section" id="skill_django">
+            <p>Django</p>
+        </div>
+
+        <div class="item_section" id="skill_docker">
+            <p>Docker</p>
+        </div>
+
+        <div class="item_section" id="skill_html">
+            <p>HTML</p>
+        </div>
+
+        <div class="item_section" id="skill_flask">
+            <p>Flask</p>
+        </div>
+
+        <div class="item_section" id="skill_linux">
+            <p>Linux</p>
+        </div>
+
+    </div>
+
+    <button class="scroll-button_cv" onclick="scrollToSection('contact')">Contato</button>
+</div>
+
+<div class="section_cv" id="contact">
+    <h2>Contato</h2>
+
+    {% include 'curriculum/contact_renan.html' %}
+
+    <button class="scroll-button_cv" onclick="scrollToSection('about')">Voltar para o Início</button>
+</div>
+
+{% endblock %}
