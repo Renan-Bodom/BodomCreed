@@ -79,8 +79,37 @@ a:link {
 
 /* contato */
 .contact_index{
-    margin: auto;
-    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+}
+
+.perfil_home_renan{
+    padding: 10px;
+    margin: 20px;
+    width: 280px;
+    height: 400px;
+    background-image: url('https://i.ibb.co/xf8MNZ3/PP-2023.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    border-radius: 10px 20px;
+}
+
+
+.perfil_home_luana{
+    padding: 10px;
+    margin: 20px;
+    width: 280px;
+    height: 400px;
+    background-image: url('https://i.ibb.co/W6F5k3H/Luana.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    border-radius: 10px 20px;
 }
 
 /* Roda pé*/
