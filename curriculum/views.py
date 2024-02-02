@@ -9,3 +9,7 @@ def cv_renan(request):
 def cv_luana(request):
 
     return render(request, 'curriculum/cv_luana.html')
+
+def cv_stefanie(request):
+
+    return render(request, 'curriculum/cv_stefanie.html')

@@ -1,0 +1,45 @@
+{% extends 'home/_layout.html' %}
+{% block title %} Lista de sistemas beta {% endblock %}
+
+{% block content %}
+
+<div class="header_cv_luana" id="about">
+    <h1>Stefanie Rodrigues</h1>
+    <p>Analista comercial</p>
+    <button class="scroll-button_cv" onclick="scrollToSection('experience')">Próxima Seção</button>
+</div>
+
+<div class="section_cv" id="experience">
+    <h2>Experiência Profissional</h2>
+    <p>Nome da Empresa - Cargo - Data de Início a Data de Término</p>
+    <p>Descrição das responsabilidades e realizações nesta posição.</p>
+    <button class="scroll-button_cv" onclick="scrollToSection('education')">Próxima Seção</button>
+</div>
+
+<div class="section_cv" id="education">
+    <h2>Educação</h2>
+    <p>Nome da Instituição - Grau - Ano de Conclusão</p>
+    <p>Descrição de sua formação acadêmica, cursos relevantes, etc.</p>
+    <button class="scroll-button_cv" onclick="scrollToSection('skills')">Próxima Seção</button>
+</div>
+
+<div class="section_cv" id="skills">
+    <h2>Habilidades</h2>
+    <ul>
+        <li>Habilidade 1</li>
+        <li>Habilidade 2</li>
+        <li>Habilidade 3</li>
+        <!-- Adicione mais habilidades conforme necessário -->
+    </ul>
+    <button class="scroll-button_cv" onclick="scrollToSection('contact')">Próxima Seção</button>
+</div>
+
+<div class="section_cv" id="contact">
+    <h2>Contato</h2>
+    <h3>Stefanie Rodrigues</h3>
+    <p>Email: sterodrigues092@gmail.com</p>
+    <p>Telefone: (11) 97957-6051</p>
+    <button class="scroll-button_cv" onclick="scrollToSection('about')">Voltar para o Início</button>
+</div>
+
+{% endblock %}
