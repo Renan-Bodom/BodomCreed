@@ -33,7 +33,7 @@ a:link {
 }
 
 .header-1 {
-    background-color: #222222;
+    background-color: #4f4f4f;
     height: 60px;
     white-space: nowrap;
 }
@@ -56,7 +56,7 @@ a:link {
 
 
 .header-2 {
-    background-color: #665105;
+    background-color: #ffde7b;
     border-bottom: 5px solid #777;
     resize: none;
     overflow: auto;
@@ -73,7 +73,7 @@ a:link {
 }
 
 .fontMenu {
-    color: #f5ff9e;
+    color: #4f4f4f;
     font-weight: bold;
 }
 
@@ -115,7 +115,7 @@ a:link {
 /* Roda pé*/
 
 .footer {
-    background-color: #222222;
+    background-color: #4f4f4f;
     padding: 15px;
     position: fixed;
     left: 0;

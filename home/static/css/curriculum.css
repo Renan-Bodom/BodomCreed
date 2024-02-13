@@ -1,7 +1,7 @@
 /* Estilos da seção de cabeçalho */
 .header_cv_renan {
     height: 100vh;
-    /*background-image: url('https://i.ibb.co/nDPFPQP/Wallpaper1.jpg');*/
+    /*background-image: url('https://lh3.googleusercontent.com/pw/ABLVV84bjZq_a9BUVRTcy3dYSYpGOrtPy7ZWZn8-mvkrgcGrqc8H8ZajWYVkYTpQiC5vC_jAR8SztyaCNBq0TI_n1AcdjGj3hHWfFpqhAV5AI0uHBG6SbaXPRfgfAhT2H7noY_iPQL9neWCB2v2wpzx7DGqYLw=w1700-h956-s-no-gm');*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,8 +22,8 @@
 
 /* Estilos dos botões de rolagem */
 .scroll-button_cv {
-    background-color: #614900 ;
-    color: rgb(247, 255, 131);
+    background-color: #ffde7b;
+    color: #614900;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -50,7 +50,7 @@
 
 .section_cv p {
     font-size: 18px;
-    color: #ffe77b;
+    color: #614900;
 }
 
 
@@ -66,8 +66,8 @@
     padding: 10px;
     margin: 20px;
     width: 400px;
-    background-color: #614900;
-    color: white;
+    background-color: #ffde7b;
+    color: #614900;
     border-radius: 10px 20px;
 }
 
@@ -84,8 +84,8 @@
 
 .boxArredondado {
     text-align: center;
-    color: #ffe77b;
-    background-color: #614900;
+    color: #614900;
+    background-color: #ffde7b;
     opacity: 0.9;
     min-width: 300px;
     border-radius: 10px 20px;
@@ -98,8 +98,8 @@
 
 .larguraBotaoContato {
     width: 130px;
-    color: white !important;
-    border-color: #ffe77b;
+    color: #614900 !important;
+    border-color: #614900;
 }
 
 
@@ -253,7 +253,7 @@
 .section_cv_stefanie h2 {
     font-size: 36px;
     padding-bottom: 25px;
-    color: #5c0a5dfc;
+    color: #000b5d;
 }
 
 .section_cv_stefanie p {
@@ -293,7 +293,7 @@
 .boxArredondado_stefanie {
     text-align: center;
     color: white;
-    background-color: #5c0a5dfc;
+    background-color: #000b5d;
     opacity: 0.9;
     min-width: 300px;
     border-radius: 10px 20px;
