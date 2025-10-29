@@ -1,8 +1,8 @@
 <!DOCTYPE html>{% load static %}
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{% block title %}{% endblock %}</title>
 
     <link rel="shortcut icon" href="https://i.ibb.co/ftqqKP6/Renan-Logo.png">
@@ -18,10 +18,10 @@
 <header class="menuCabeca">
     <div class="header-1">
         <main>
-            <font class="fontHeader-1">
+            <div class="fontHeader-1">
 
                 <div class="cabecaEsquerda">
-                    <img src="https://i.ibb.co/ftqqKP6/Renan-Logo.png" width="50px">
+                    <img src="https://i.ibb.co/ftqqKP6/Renan-Logo.png" width="50px" alt="Bodom Creed Logo">
                     Bodom Creed
                 </div>
 
@@ -43,7 +43,7 @@
                 </div>
                 -->
 
-            </font>
+            </div>
         </main>
     </div>
 </header>
@@ -52,10 +52,10 @@
     <div class="menuOp">
 
         <ul>
-            <li><a href="/"><font class="fontMenu">Inicio</font></a></li>
-            <li><a href="#"><font class="fontMenu">Sistemas</font></a></li>
-            <li><a href="/sistemasBeta/"><font class="fontMenu">Sistemas BETA</font></a></li>
-            <li><a href="#"><font class="fontMenu">Sobre</font></a></li>
+            <li><a href="/"><span class="fontMenu">Inicio</span></a></li>
+            <li><a href="#"><span class="fontMenu">Sistemas</span></a></li>
+            <li><a href="/sistemasBeta/"><span class="fontMenu">Sistemas BETA</span></a></li>
+            <li><a href="#"><span class="fontMenu">Sobre</span></a></li>
         </ul>
 
     </div>
@@ -76,10 +76,10 @@
 <footer class="footer">
   <!-- Copyright -->
   <div>
-      <font class="fontHeader-1">
-      <img src="https://i.ibb.co/ftqqKP6/Renan-Logo.png" width="40px">
-      © 2022 Copyright:
-      </font>
+      <span class="fontHeader-1">
+      <img src="https://i.ibb.co/ftqqKP6/Renan-Logo.png" width="40px" alt="Bodom Creed Logo">
+      © <span id="currentYear"></span> Copyright:
+      </span>
       <a href="https://bodomcreed.pythonanywhere.com/"> Bodom Creed.</a>
   </div>
   <!-- Copyright -->
