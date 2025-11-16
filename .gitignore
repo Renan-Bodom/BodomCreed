@@ -1,4 +1,8 @@
+# Ignore básicos
 __pycache__
 .idea
+
+# Configurações do sistema
+.env
 db.sqlite3
 /venvBodom

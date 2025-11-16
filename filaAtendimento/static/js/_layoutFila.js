@@ -1,3 +1,11 @@
+/* Set current year dynamically */
+document.addEventListener('DOMContentLoaded', function() {
+    const yearElement = document.getElementById('currentYear');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+});
+
 /* Hora */
 var dataAgora = new Date;
 var horaAgora = document.getElementById("horaAgora");
