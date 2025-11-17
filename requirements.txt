@@ -1,0 +1,5 @@
+# Import para carregar variáveis de ambiente
+python-dotenv
+
+# Import para o framework
+django
