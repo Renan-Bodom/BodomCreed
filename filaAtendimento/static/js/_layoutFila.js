@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 /* Hora */
-var dataAgora = new Date;
+var dataAgora = new Date();
 var horaAgora = document.getElementById("horaAgora");
-horaAgora.innerHTML = "Hora fila: " + dataAgora.getHours() + ':' + dataAgora.getMinutes();
+var minutos = dataAgora.getMinutes().toString().padStart(2, '0');
+horaAgora.innerHTML = "Hora fila: " + dataAgora.getHours() + ':' + minutos;
