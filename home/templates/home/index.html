@@ -2,49 +2,62 @@
 {% block title %} Home Bodom Creed {% endblock %}
 
 {% block content %}
-
-<!--
-Bem vindo ao site {{ siteNome }}!
-<br><br>
--->
-
-<!-- Teste ao pressionar botão
-<br>
-<br>
-
-<button name="btnAperteAqui" type="button" class="btn btn-primary" onclick="btnAqui()">Botão teste JS!</button>
-
-<br>
-<br>
-    <div id="DIVContador">
-
+<section class="hero">
+    <div class="hero-badge">Bodom Creed</div>
+    <h1>Experiências com brilho dourado</h1>
+    <p class="hero-copy">Portfólio digital desenvolvido por Renan Marques para apresentar projetos, habilidades e experiências.</p>
+    <div class="hero-actions">
+        <a class="btn-primary" href="/cv/#contact">Contato</a>
+        <a class="btn-ghost" href="/cv/">Trajetória</a>
     </div>
-<br>
-<br>
--->
-
-<div class="contact_index">
-
-    <!--{% include 'curriculum/contact_renan.html' %}-->
-    <a href="/cv/">
-        <div class="perfil_home_renan">
-            Renan Marques - TI
+    <div class="hero-metrics" id="sobre">
+        <div>
+            <span class="metric-number">Coragem</span>
+            <span class="metric-label">para inovar</span>
         </div>
-    </a>
-
-    <a href="/cv/stefanie/">
-        <div class="perfil_home_stefanie">
-            Stefanie Rodrigues - Comercial
+        <div>
+            <span class="metric-number">Foco</span>
+            <span class="metric-label">no objetivo</span>
         </div>
-    </a>
-
-    <a href="/cv/luana/">
-        <div class="perfil_home_luana">
-            Luana Marques - Química
+        <div>
+            <span class="metric-number">Perseverança</span>
+            <span class="metric-label">no caminho</span>
         </div>
-    </a>
+    </div>
+</section>
 
-</div>
+<section class="team-section">
+    <div class="section-header">
+        <p class="kicker">Estrelas Douradas</p>
+        <h2>Trajetórias que se unem</h2>
+        <p class="section-copy">Conheça minha trajetória e as pessoas que caminham comigo.</p>
+    </div>
 
+    <div class="team-grid">
+        <a href="/cv/" class="profile-card perfil_home_renan">
+            <div class="profile-overlay">
+                <span class="pill">Tecnologia</span>
+                <h3>Renan Marques</h3>
+                <p>Desenvolvimento de software, análise de dados e pesquisa científica.</p>
+            </div>
+        </a>
+
+        <a href="/cv/stefanie/" class="profile-card perfil_home_stefanie">
+            <div class="profile-overlay">
+                <span class="pill">Comercial</span>
+                <h3>Stefanie Rodrigues</h3>
+                <p>Estratégia comercial, relacionamento e negociação.</p>
+            </div>
+        </a>
+
+        <a href="/cv/luana/" class="profile-card perfil_home_luana">
+            <div class="profile-overlay">
+                <span class="pill">Química</span>
+                <h3>Luana Marques</h3>
+                <p>Pesquisa, qualidade e processos laboratoriais.</p>
+            </div>
+        </a>
+    </div>
+</section>
 
 {% endblock %}
