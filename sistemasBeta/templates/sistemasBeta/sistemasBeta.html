@@ -1,12 +1,28 @@
 {% extends 'home/_layout.html' %}
-{% block title %} Lista de sistemas beta {% endblock %}
+{% block title %} Projetos {% endblock %}
 
 {% block content %}
 
-<div class="titlePag">Lista de sistemas betas BodomCreed:</div>
+<section class="systems-hero">
+    <p class="kicker">Laboratório pessoal</p>
+    <h1>Projetos</h1>
+    <p class="copy">Onde ideias ganham vida.</p>
+</section>
 
-<div class="listBeta">
-    <a href="/filaAtendimento/" class="btn btn-outline-warning">Fila online</a>
-</div>
+<section class="systems-grid">
+    <div class="system-card">
+        <div class="system-icon">📊</div>
+        <h3>Fila Online</h3>
+        <p>Gestão inteligente de filas de atendimento com priorização automática e integração em tempo real.</p>
+        <a href="#" class="card-link">Em breve →</a>
+    </div>
+
+    <div class="system-card">
+        <div class="system-icon">👔</div>
+        <h3>Stylio</h3>
+        <p>Seu guarda-roupas digital que auxilia na escolha e combinação de roupas para qualquer ocasião.</p>
+        <a href="#" class="card-link">Em breve →</a>
+    </div>
+</section>
 
 {% endblock %}

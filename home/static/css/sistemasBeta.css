@@ -1,14 +1,93 @@
-.titlePag{
-    text-align: center;
-    padding: 10px;
-    color: #614900;
+:root {
+    --bg: #0c0a09;
+    --card: #1c1814;
+    --gold: #d4af37;
+    --gold-strong: #f3c94c;
+    --text: #f4f1e8;
+    --muted: #c7bfa5;
+    --stroke: rgba(244, 241, 232, 0.08);
+    --radius: 16px;
+    --font-display: 'Playfair Display', 'Times New Roman', serif;
+    --font-base: 'Space Grotesk', 'Segoe UI', sans-serif;
 }
 
-.listBeta{
-    text-align: center;
+.systems-hero {
+    padding: 36px 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
-.listBeta a {
-    color: black !important;
-    border-color: #614900;
+.systems-hero .kicker {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold-strong);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.systems-hero h1 {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 3vw, 36px);
+    color: var(--text);
+}
+
+.systems-hero .copy {
+    color: var(--muted);
+    max-width: 600px;
+}
+
+.systems-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    margin-top: 24px;
+}
+
+.system-card {
+    background: var(--card);
+    border: 1px solid var(--stroke);
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.system-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(212, 175, 55, 0.4);
+    box-shadow: 0 24px 72px rgba(0, 0, 0, 0.4);
+}
+
+.system-icon {
+    font-size: 32px;
+}
+
+.system-card h3 {
+    font-family: var(--font-display);
+    font-size: 22px;
+    color: var(--text);
+    margin: 0;
+}
+
+.system-card p {
+    color: var(--muted);
+    margin: 0;
+    font-size: 14px;
+}
+
+.card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--gold-strong);
+    font-weight: 600;
+    transition: gap 0.2s ease;
+}
+
+.card-link:hover {
+    gap: 10px;
 }
